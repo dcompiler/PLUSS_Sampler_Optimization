@@ -1,4 +1,7 @@
+/// A chunk is a consecutive group of iterations assigned together to be
+/// executed by a thread.
 pub(crate) struct Chunk {
+    /// Lower and upper bounds
     lb: i32,
     ub: i32,
 }
